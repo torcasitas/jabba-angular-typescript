@@ -34,6 +34,7 @@ var destinations = {
 var vendoredLibs = [
   'vendor/angular/angular.js',
   'vendor/ui-router/release/angular-ui-router.js',
+  'vendor/parse/parse.min.js'
 ];
 
 // Will be filled automatically

@@ -12,7 +12,6 @@ class HomeService implements core.IHomeService {
   }
 }
 
-
 angular
   .module("home.services", [])
   .service("HomeService", HomeService);

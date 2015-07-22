@@ -3,13 +3,13 @@
 
 /* @ngInject */
 function appConfig($urlRouterProvider: ng.ui.IUrlRouterProvider) {
-  $urlRouterProvider.otherwise("/home");
+  $urlRouterProvider.otherwise("home");
 }
 
 angular
-  .module("ngBoilerplate", [
+  .module("jabbaWeb", [
     "templates",
-    "ngBoilerplate.home",
+    "jabbaWeb.home",
     "ui.router.state"
   ])
   .config(appConfig);

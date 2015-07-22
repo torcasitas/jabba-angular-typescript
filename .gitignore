@@ -3,6 +3,8 @@ build/
 # You should commit npm/bower packages in your projects
 node_modules/
 vendor/
+src/app/parse-config.js
+
 
 .sass-cache/
 

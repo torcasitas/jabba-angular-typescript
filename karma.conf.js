@@ -13,6 +13,7 @@ module.exports = function (config) {
             'vendor/angular/angular.js',
             'vendor/ui-router/release/angular-ui-router.js',
             'vendor/angular-mocks/angular-mocks.js',
+            'vendor/parse/parse.js',
             'build/src/templates.js',
             'src/app/**/module.ts',
             'src/app/**/!(module).ts',

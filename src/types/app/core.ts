@@ -1,4 +1,5 @@
 /// <reference path="../libs/angular.d.ts"/>
+/// <reference path="../libs/parse.d.ts"/>
 
 declare module core {
 
@@ -13,5 +14,18 @@ declare module core {
 
   interface IHomeService {
     getGreeting(greeting: string): IGreeting;
+  }
+
+  // interface IRecruiter {
+  //   username: string;
+  //   password: string;
+  // }
+
+  // interface IRecruiterService {
+  //   login(username: string, password: string): 
+  // }
+
+  interface IParseCloudService {
+    runFunction(name: string, arg?: any): Parse.Promise<any>; 
   }
 }
